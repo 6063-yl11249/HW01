@@ -10,7 +10,7 @@ function setup() {
 function draw() {
   let currentTime = millis() - startTime;
   background(225);
-  stroke ("deeppink");
+  stroke (0);
 
   for (let l = 0; l <= numLines; l += 1) {
     let x0 = map(l, 0, numLines, 0, width); // Use sin with an offset of PI/2 to start from the straight line
